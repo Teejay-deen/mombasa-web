@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+.hero {
+  background: url(./images/backgroud_top2.png);
+  color: #f2f2f2;
+  position: absolute;
+  width: 1348px;
+  height: 700px;
+  left: 0px;
+  top: 0px;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.s {
+  position: absolute;
+  width: 38px;
+  height: 89px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffb307;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title {
+  position: absolute;
+  width: 641.87px;
+  height: 133px;
+  left: 56px;
+  top: 228px;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 57.8261px;
+  line-height: 66px;
+
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.lorem {
+  position: absolute;
+  width: 491px;
+  height: 46px;
+  left: 56px;
+  top: 376px;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.private {
+  position: absolute;
+  width: 247px;
+  height: 233px;
+  background: #000000;
+  top: 70px;
+  right: 90px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.private-p {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  right: 79px;
+  bottom: 79px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+
+  color: #ffb307;
+}
+
+.time {
+  width: 97px;
+  height: 23px;
+  position: absolute;
+  top: 164px;
+  right: 130px;
+  left: 20px;
+  bottom: 46px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #099dfb;
+}
+
+.vector-img {
+  position: absolute;
+  width: 48px;
+  height: 32px;
+  left: 8.09%;
+  right: 72.49%;
+  top: 13.29%;
+  bottom: 72.98%;
+}
+
+.vector-circle {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 37px;
+  top: 19px;
+}
+
+.vector-arrow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 17px;
+  height: 13px;
+  padding: 20px;
+  background: #099dfb;
+}
+
+.ellipse-dot-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  position: absolute;
+  left: 56px;
+  bottom: 75px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ellipse-dot {
+  width: 11px;
+  height: 11px;
+  margin-right: 10px;
 }
