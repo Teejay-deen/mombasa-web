@@ -145,33 +145,22 @@
   height: 700px;
   left: 0px;
   top: 700px;
+  /* text-align: center; */
   background: #f2f6f9;
 }
 
 .travel-tittle {
-  position: absolute;
-  width: 338px;
-  height: 46px;
-  left: 407px;
-  top: 126px;
-  bottom: 695px;
-  left: 500px;
-  right: 890x;
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 46px;
+  text-align: center;
   /* identical to box height */
 }
 
 .travel-p {
-  position: absolute;
-  width: 462px;
-  height: 46px;
-  left: 430px;
-  right: 351px;
-  top: 183px;
+  /* width: 462px; */
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 400;
@@ -180,37 +169,40 @@
   text-align: center;
 }
 
-.travel-img {
-  position: absolute;
+.travel-card {
   width: 273.84px;
   height: 170.62px;
-  left: 285px;
-  top: 285px;
 }
 
-.card-p {
-  position: absolute;
-  bottom: 186px;
-  left: 2px;
-  right: 53px;
+.travel-card-container {
   display: flex;
-  padding-top: 11px;
-  margin-left: 310px;
-  width: 211.57px;
-  height: 24.74px;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#travel-img {
+  width: 275px;
+  height: 170px;
+}
+
+.Vector-Image3 {
+  position: absolute;
+    
+}
+
+#travel-card-title {
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
-  font-size: 21.3271px;
+  font-size: 20px;
   line-height: 25px;
-  /* identical to box height */
 }
 
 .card-vector {
   position: absolute;
   bottom: 180px;
   height: 17px;
-  weight: 17px;
   left: 2px;
   right: 53px;
   display: flex;
@@ -218,22 +210,12 @@
   margin-left: 310px;
 }
 
-.card-price {
-  position: absolute;
-  bottom: 120px;
-  left: 2px;
-  right: 53px;
-  display: flex;
-  padding-top: 11px;
-  margin-left: 310px;
-  width: 89.57px;
-  height: 29px;
+#travel-card-price {
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
-  font-size: 25.5926px;
-  line-height: 29px;
-
+  font-size: 25;
+  line-height: 30px;
   color: #099dfb;
 }
 
@@ -260,29 +242,19 @@
   color: rgba(0, 0, 0, 0.4);
 }
 
-.star-vector {
-  bottom: 120px;
-  left: 2px;
-  right: 53px;
-  display: flex;
-  padding-top: 11px;
-  margin-left: 310px;
-  display: flex;
-  flex-direction: row;
-  position: absolute;
-  width: 14.27px;
-  height: 14.27px;
-  left: 0px;
-  border-radius: 0.282659px;
+.star-rate {
+  width: 14px;
+  height: 14px;
 }
 
-.card {
+/* .card {
+  position: absolute;
   width: Hug (901.52px);
   height: Hug (377.92px);
   top: 985px;
   left: 125px;
   gap: 40px;
-}
+} */
 
 .btn {
   display: flex;
@@ -290,6 +262,8 @@
   align-items: center;
   padding: 11px 26px;
   gap: 10px;
+  border-radius: 10px;
+  border: #000000;
   position: absolute;
   width: 131px;
   height: 56px;
@@ -297,17 +271,24 @@
   right: 45px;
   top: 600px;
   color: #f2f2f2;
-  font-size: larger;
-
   background: #099dfb;
 }
+
+/* .boat {
+  position: absolute;
+  width: 1152px;
+  height: 700px;
+  left: 0px;
+  top: 700px;
+  background: #f2f6f9;
+} */
 
 .searching {
   position: absolute;
   width: 451px;
   height: 46px;
-  left: 351px;
-  top: 1500px;
+  left: 480px;
+  top: 43px;
 
   font-family: "Times New Roman";
   font-style: normal;
@@ -316,3 +297,106 @@
   line-height: 46px;
   /* identical to box height */
 }
+
+.lorem1 {
+  position: absolute;
+  width: 462px;
+  height: 46px;
+  left: 480px;
+  top: 143px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.boat-card {
+  position: absolute;
+  width: 247px;
+  height: 350px;
+  left: 98px;
+  right: 809px;
+  bottom: 246px;
+  top: 298px;
+  background: #e5e5e5;
+}
+
+.boat-p {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  right: 79px;
+  bottom: 79px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.boat-img {
+  position: absolute;
+  height: 48px;
+  width: 32px;
+  bottom: 287px;
+  left: 20px;
+  right: 179px;
+  top: 31px;
+
+  bottom: 75.54%;
+}
+
+.card-hrs {
+  width: 97px;
+  height: 23px;
+  position: absolute;
+  top: 164px;
+  right: 130px;
+  left: 20px;
+  bottom: 46px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #099dfb;
+}
+
+.card-lorem {
+  position: absolute;
+  width: 180px;
+  left: 20px;
+  height: 51px;
+  top: 200px;
+  bottom: 46px;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 17px;
+}
+
+.boat-image1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 17px;
+  height: 13px;
+  padding: 20px;
+  background: #717475;
+}
+
+.boat-circle {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 37px;
+  top: 19px;
+}
+
+

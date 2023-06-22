@@ -2,26 +2,30 @@ import React from "react";
 import TravelImage from "../images/Rectangle 6.png";
 import CardVector from "../images/Vector (2).png";
 import starVector from "../images/Star.png"
+import VectorImage3 from "../images/Vector (6).png"
 
 function Travel(props) {
   return (
-    <div className="travel">
-      <h2 className="travel-tittle">Travel & Excursion</h2>
-      <p className="travel-p">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
-        purus sit amet luctus venenatis
-      </p>
-
-      <div className="card">
-        <img className="travel-img " src={TravelImage} alt="" />
-        <p className="card-p">{props.title}</p>
-        <p className="card-price">{props.price}</p>
-        <img className="card-vector" src={CardVector} />
-        <p className="card-time">{props.hour}</p>
-        <img className="star-vector" src={starVector} alt="" />
-        <button className="btn">View All</button>
+    <div className="travsel">
+      <div className="travel-card">
+        <img id="travel-img" src={TravelImage} alt="" />
+        <span id="travel-card-title">{props.title}</span>
+        <br/>
+        {/* <img className="" src={CardVector} /> */}
+        <span className="">{props.hour}</span>
+        <br/>
+        <span id="travel-card-price">{props.price}</span>
+        <br/>
+        <img className="star-rate" src={starVector} alt="" />
+        <img className="star-rate" src={starVector} alt="" />
+        <img className="star-rate" src={starVector} alt="" />
+        <img className="star-rate" src={starVector} alt="" />
+        <img className="star-rate" src={starVector} alt="" />
+        <img className="Vector-Image3" src={VectorImage3} alt="" />
       </div>
+     
 
+        {/* <button className="btn">View All</button> */}
     </div>
   );
 }
