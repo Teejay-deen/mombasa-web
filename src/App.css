@@ -145,8 +145,14 @@
   height: 700px;
   left: 0px;
   top: 700px;
-  /* text-align: center; */
   background: #f2f6f9;
+}
+
+.boat-section {
+  position: absolute;
+  width: 1348px;
+  top: 1300px;
+  background: #ffffff;
 }
 
 .travel-tittle {
@@ -181,6 +187,13 @@
   padding-right: 100px;
 }
 
+.boat-card-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 #travel-img {
   width: 275px;
   height: 170px;
@@ -188,7 +201,10 @@
 
 .Vector-Image3 {
   position: absolute;
-    
+  margin-top: 30px;
+  width: 17px;
+  padding: 20px;
+  background: #1784a8;
 }
 
 #travel-card-title {
@@ -244,44 +260,11 @@
 
 .star-rate {
   width: 14px;
+  position: absolute;
+  margin-left: 20px;
+  margin-bottom: 10px;
   height: 14px;
 }
-
-/* .card {
-  position: absolute;
-  width: Hug (901.52px);
-  height: Hug (377.92px);
-  top: 985px;
-  left: 125px;
-  gap: 40px;
-} */
-
-.btn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 11px 26px;
-  gap: 10px;
-  border-radius: 10px;
-  border: #000000;
-  position: absolute;
-  width: 131px;
-  height: 56px;
-  left: 700px;
-  right: 45px;
-  top: 600px;
-  color: #f2f2f2;
-  background: #099dfb;
-}
-
-/* .boat {
-  position: absolute;
-  width: 1152px;
-  height: 700px;
-  left: 0px;
-  top: 700px;
-  background: #f2f6f9;
-} */
 
 .searching {
   position: absolute;
@@ -314,89 +297,196 @@
   color: #000000;
 }
 
-.boat-card {
-  position: absolute;
+#boat-card {
   width: 247px;
-  height: 350px;
-  left: 98px;
-  right: 809px;
-  bottom: 246px;
-  top: 298px;
+  /* height: 350px; */
   background: #e5e5e5;
 }
 
-.boat-p {
-  position: absolute;
-  top: 90px;
-  left: 20px;
-  right: 79px;
-  bottom: 79px;
+#boat-title {
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
+  margin-bottom: 10px;
   line-height: 32px;
+  padding-left: 20px;
 }
 
-.boat-img {
+#boat-img {
   position: absolute;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 15px;
   height: 48px;
   width: 32px;
-  bottom: 287px;
-  left: 20px;
-  right: 179px;
-  top: 31px;
-
-  bottom: 75.54%;
 }
 
-.card-hrs {
-  width: 97px;
-  height: 23px;
-  position: absolute;
-  top: 164px;
-  right: 130px;
-  left: 20px;
-  bottom: 46px;
+#boat-card-time {
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
-
+  padding-left: 20px;
   color: #099dfb;
 }
 
-.card-lorem {
-  position: absolute;
-  width: 180px;
-  left: 20px;
-  height: 51px;
-  top: 200px;
-  bottom: 46px;
+#boat-card-desc {
   font-family: "Times New Roman";
   font-style: normal;
   font-weight: 400;
+  margin-bottom: 10px;
   font-size: 15px;
+  padding: 20px;
   line-height: 17px;
 }
 
-.boat-image1 {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+#boat-card-image {
   width: 17px;
-  height: 13px;
   padding: 20px;
   background: #717475;
 }
 
-.boat-circle {
-  position: absolute;
+#boat-card-circle {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
   width: 35px;
   height: 35px;
   left: 37px;
   top: 19px;
 }
 
+/* .btn-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 11px 26px;
+  gap: 10px;
 
+  position: absolute;
+  width: 234px;
+  justify-content: center;
+  height: 56px;
+  right: 675px;
+  left: 459px;
+  top: 630px;
+
+  background: #099dfb;
+} */
+
+#more-btn {
+  background-color: #099dfb;
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  position: absolute;
+  bottom: -82px;
+  border-radius: 14px;
+  text-indent: 12px;
+  padding: -2px;
+  border-color: #099dfb;
+  /* margin-bottom: 55px; */
+  left: 553px;
+
+  color: #ffffff;
+}
+
+/* .signUp{
+  position: absolute;
+  width: 1348px;
+  height: 700px;
+  left: 0px;
+  top: 700px;
+  background: #f2f6f9;
+  
+}  */
+
+.signUp-title {
+  position: absolute;
+  padding-top: 149px;
+  padding-left: 52px;
+  width: 358px;
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  color: #ffff;
+  background-size: cover;
+}
+
+.signUp-background {
+  position: absolute;
+  width: 1348px;
+  height: 470px;
+  left: 0px;
+  top: 2095px;
+  background-size: cover;
+  background-image: url(./images/background_top.png);
+}
+
+.news-signup {
+  position: absolute;
+  width: 1207px;
+  height: 326px;
+  left: -2px;
+  top: 2487px;
+  background: #FFFFFF
+}
+
+.news-letter {
+  position: absolute;
+  width: 327px;
+  height: 34px;
+  left: 400px;
+  top: 70px;
+  font-family: "Times New Roman";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.signup-lorem {
+  position: absolute;
+  width: 462px;
+  left: 338px;
+  top: 114px;
+  font-size: 20px;
+}
+
+.email {
+  position: absolute;
+  width: 490px;
+  height: 50px;
+  left: 175px;
+  top: 179px;
+}
+
+#submit-btn {
+  padding: 9px 26px;
+  position: absolute;
+  width: 146px;
+  height: 56.5px;
+  left: 672px;
+  top: 179px;
+  background-color: #099dfb;
+
+  font-family: "Times New Roman";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.palmTree-img {
+  position: absolute;
+  width: 121.54px;
+  height: 156px;
+  left: 1080.28px;
+  top: 157.94px;
+  transform: rotate(16.28deg);
+}

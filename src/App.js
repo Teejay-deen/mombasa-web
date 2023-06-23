@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Travel from "./components/Travel";
 import Boat from "./components/Boat";
 import Space from "./components/space";
+import SignUp from "./components/signUp";
 
 function App() {
   return (
@@ -35,14 +36,51 @@ function App() {
         </div>
       </div>
 
-      {/* <div className="section-2">
-        <Boat
-          title="Private boat Charter"
-          timeCard="17 hrs Max"
-          cardLorem=" Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+      <div className="boat-section">
+        <Space height="80px" />
+        <center className="travel-tittle">What are you looking for?</center>
+        <Space height="11px" />
+        <center className="travel-p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus venenatis
+        </center>
+
+        <Space height="50px" />
+
+        <div className="boat-card-container">
+          <Boat
+            title="Private boat Charter"
+            timeCard="17 hrs Max"
+            cardLorem=" Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
           purus sit amet luctus"
-        />
-      </div> */}
+          />
+          <Space width="40px" />
+          <Boat
+            title="Private boat Charter"
+            timeCard="17 hrs Max"
+            cardLorem=" Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus"
+          />
+          <Space width="40px" />
+          <Boat
+            title="Private boat Charter"
+            timeCard="17 hrs Max"
+            cardLorem=" Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus"
+          />
+          <Space width="40px" />
+          <Boat
+            title="Private boat Charter"
+            timeCard="17 hrs Max"
+            cardLorem=" Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
+          purus sit amet luctus"
+          />
+        </div>
+
+        <button id="more-btn">More Services</button>
+      </div>
+
+    <SignUp />
     </div>
   );
 }
