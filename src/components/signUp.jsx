@@ -2,7 +2,7 @@ import React from "react";
 import palmTree from "../images/palmTree.png";
 import addidasImage from "../images/addidas.png";
 import pumaImage from "../images/puma.png";
-import phoneImg from "../images/phone.png";
+// import phoneImg from "../images/phone.png";
 import linkedinImg from "../images/linkedin.png";
 import facebookImg from "../images/facebook.png";
 import instaImg from "../images/instagram.png";
