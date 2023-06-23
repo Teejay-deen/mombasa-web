@@ -1,5 +1,8 @@
 import React from "react";
 import palmTree from "../images/palmTree.png"
+import addidasImage from "../images/addidas.png"
+import pumaImage from "../images/puma.png"
+
 
 function SignUp() {
   return (
@@ -17,6 +20,12 @@ function SignUp() {
         <span className="signup-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit ut</span>
         <input className="email" type="email" placeholder="Enter your email address" />
         <button id="submit-btn">Submit</button>
+      </div>
+      <div className="logo-containter">
+        <span className="patner">Our Partners</span>
+        <img className="addidas-img" src={addidasImage} alt="" />
+        <img className="puma-img" src={pumaImage} alt="" />
+        <img className="puma-img" src={pumaImage} alt="" />
       </div>
     </div>
   );
