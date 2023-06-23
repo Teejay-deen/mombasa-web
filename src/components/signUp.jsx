@@ -53,7 +53,7 @@ function SignUp() {
             <li className="photo">Photo Gallery</li>
           </ul>
         </div>
-        <div>
+        <div className="social1">
           <div className="social-media">
             <span className="social">Social Media</span>
             <br />
